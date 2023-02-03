@@ -1,7 +1,7 @@
 import numpy as np
 import torch
-from utils.helper import GetTextQueries
-from utils.banks import text_queries_bias_at_k
+from .utils.helper import GetTextQueries
+from .utils.banks import text_queries_bias_at_k
 from tqdm import tqdm
 
 class GenderBlindness:
